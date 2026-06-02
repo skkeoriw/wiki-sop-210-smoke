@@ -12,6 +12,7 @@
 ```text
 Stage A: youtube-fetch          获取 YouTube 元数据
 Stage B: notebooklm-research    调用远程 NotebookLM Bridge 生成研究报告
+Stage B2: youtube-deep-research 调用 YouTube Worker 深度研究并补充 Stage C 输入
 Stage C: wiki-build             调用 Gemini 构建知识图谱页面
 Stage D: tg-notify              发送 Telegram 总结并归档运行记录
 ```
@@ -85,6 +86,7 @@ youtube-wiki validate
 
 ```text
 ~/.codex/skills/youtube-wiki-machine-init
+~/.codex/skills/youtube-wiki-sop-engineering
 ```
 
 后续可以让 Codex 初始化新的 wiki 仓库：
