@@ -1,0 +1,2 @@
+{"ts": "2026-06-02T04:34:09Z", "event": "stage_start", "stage": "youtube-deep-research", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-06-02T04:34:10Z", "event": "stage_failed", "stage": "youtube-deep-research", "pipeline": "youtube-research-wiki", "error": "youtube_deep_research exited 1"}
