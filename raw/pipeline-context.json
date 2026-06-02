@@ -42,5 +42,42 @@
       "thumbnail": "https://i.ytimg.com/vi/5MgBikgcWnY/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "direct-1780371048",
+    "start_time": "2026-06-02T03:30:48Z",
+    "end_time": "2026-06-02T03:32:39Z",
+    "duration_s": 110,
+    "llm_calls": 20,
+    "pages_created_total": 42,
+    "pages_new_this_run": 18,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/世界之巅.md",
+      "wiki/concepts/快速习得技能.md",
+      "wiki/concepts/情感障碍.md",
+      "wiki/concepts/愚蠢感.md",
+      "wiki/concepts/技能拆解.md",
+      "wiki/concepts/挫败感壁垒.md",
+      "wiki/concepts/时间焦虑.md",
+      "wiki/concepts/核心子技能.md",
+      "wiki/concepts/消除干扰.md",
+      "wiki/concepts/自我纠错.md",
+      "wiki/concepts/表现尚可.md",
+      "wiki/concepts/预设练习时长.md",
+      "wiki/entities/josh-kaufman.md",
+      "wiki/entities/k-anders-ericsson.md",
+      "wiki/entities/malcolm-gladwell.md",
+      "wiki/entities/outliers.md",
+      "wiki/entities/尤克里里.md",
+      "wiki/sources/简报-快速习得技能的“前20小时”方法论.md"
+    ],
+    "sources": 2,
+    "entities": 7,
+    "concepts": 33,
+    "comparisons": 0,
+    "prompt_tokens": 20929,
+    "completion_tokens": 19602,
+    "status": "success"
   }
 }
