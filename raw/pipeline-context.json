@@ -42,5 +42,48 @@
       "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
       "source_type": "youtube"
     }
+  },
+  "stage_c": {
+    "run_id": "direct-1780370737",
+    "start_time": "2026-06-02T03:25:37Z",
+    "end_time": "2026-06-02T03:27:55Z",
+    "duration_s": 138,
+    "llm_calls": 26,
+    "pages_created_total": 24,
+    "pages_new_this_run": 24,
+    "pages_updated_this_run": 0,
+    "file_paths": [
+      "wiki/concepts/共同认知.md",
+      "wiki/concepts/共情.md",
+      "wiki/concepts/关系规则.md",
+      "wiki/concepts/减少伤害.md",
+      "wiki/concepts/博弈理解.md",
+      "wiki/concepts/同步认知.md",
+      "wiki/concepts/否定式承诺.md",
+      "wiki/concepts/建立安全边界.md",
+      "wiki/concepts/情感安全性.md",
+      "wiki/concepts/情感忠诚.md",
+      "wiki/concepts/情感表达.md",
+      "wiki/concepts/情感裂痕.md",
+      "wiki/concepts/敏锐洞察力.md",
+      "wiki/concepts/沟通僵局.md",
+      "wiki/concepts/沟通紧迫性.md",
+      "wiki/concepts/真实性.md",
+      "wiki/concepts/行为合规性.md",
+      "wiki/concepts/行为预见性.md",
+      "wiki/concepts/透明沟通.md",
+      "wiki/concepts/长期战略目标.md",
+      "wiki/concepts/长期承诺.md",
+      "wiki/entities/never-gonna-give-you-up.md",
+      "wiki/entities/rick-astley.md",
+      "wiki/sources/rick-astley-never-gonna-give-you-up-内容分析简报.md"
+    ],
+    "sources": 1,
+    "entities": 2,
+    "concepts": 21,
+    "comparisons": 0,
+    "prompt_tokens": 23387,
+    "completion_tokens": 26047,
+    "status": "success"
   }
 }
