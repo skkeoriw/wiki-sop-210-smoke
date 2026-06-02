@@ -1,0 +1,2 @@
+{"ts": "2026-06-02T04:33:01Z", "event": "stage_start", "stage": "youtube-fetch", "pipeline": "youtube-research-wiki"}
+{"ts": "2026-06-02T04:33:03Z", "event": "stage_done", "stage": "youtube-fetch", "pipeline": "youtube-research-wiki", "duration_s": 2}
