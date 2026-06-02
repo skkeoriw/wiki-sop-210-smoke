@@ -1,59 +1,64 @@
 {
-  "id": "c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890",
+  "id": "57e17f59-df8c-4dc9-85ff-0d1e9d037717",
   "youtube_url": "https://www.youtube.com/watch?v=qCWxfXidnEc",
   "video_id": null,
   "status": "completed",
   "audio_url": null,
   "r2_key": null,
   "model_used": "vertex:gemini-3.1-pro-preview",
-  "summary": "本视频是一份面向Claude Code新手的极简入门教程，旨在帮助用户突破基础对话，掌握进阶操作。视频详细讲解了10余个高频实用的斜杠命令（如/help、/status、/diff等）和快捷键（@、!、#、Shift+Tab），涵盖文件引用、终端命令执行、个性化记忆、权限规划、上下文管理及任务自动化等核心场景。通过真实对话演示，手把手教你如何精准控制AI，大幅提升日常编程与开发效率。",
+  "summary": "本视频是Claude Code的极简入门教程，专为已安装但仅停留在基础对话阶段的用户准备。视频详细介绍了13个高频实用的斜杠命令与快捷键，包括使用Help和Status查看状态，利用@、!、#符号精准控制上下文与执行命令，通过Shift+Tab切换规划模式保障安全，以及使用diff、rewind、compact等命令管理代码变更与上下文。帮助开发者快速掌握Claude Code的高阶用法，大幅提升日常编程与开发效率。",
   "key_points": [
-    "基础查询与状态监控：使用/help快速查找命令，/status查看模型、版本及Token消耗情况。",
-    "精准交互与快捷符号：利用@引用特定文件，!进入Bash模式执行Shell命令，#实现快速记忆个人偏好。",
-    "权限管理与安全规划：通过Shift+Tab切换权限模式，强烈推荐使用Plan Mode（规划模式）先看计划再执行代码修改。",
-    "代码审查与版本回退：提交前用/diff查看详细代码改动，出现问题用/rewind一键回退代码和对话快照。",
-    "上下文管理与自动化：使用/compact和/context优化上下文空间，/clear开启新局，/go设定条件让AI自动完成任务。"
+    "基础命令掌握：使用/help查找命令，/status查看模型版本与Token消耗",
+    "精准上下文控制：通过@引用文件，!执行Bash命令，#快速记录个人偏好",
+    "安全与规划模式：使用Shift+Tab切换至Plan Mode，先看计划再执行，保障代码安全",
+    "代码与会话管理：利用/diff查看代码差异，/rewind回退修改，/clear开启新会话",
+    "上下文与任务自动化：通过/compact和/context优化上下文空间，使用/go设定条件让AI自动完成任务"
   ],
   "titles": [
-    "别只会和AI聊天！15分钟掌握Claude Code核心命令与快捷键，效率翻倍！",
-    "Claude Code 极简入门教程：10个神级命令让你真正驾驭AI编程",
-    "告别Token焦虑与代码失控！Claude Code 进阶使用指南与实战技巧"
+    "别只会聊天！15分钟掌握Claude Code高阶命令与快捷键",
+    "Claude Code 极简入门：13个神级命令让你的开发效率翻倍",
+    "AI编程提效指南：Claude Code 核心命令全解析（附实操演示）"
   ],
-  "description": "已经安装了Claude Code，却只会把它当普通聊天框用？本期视频为你带来Claude Code极简入门教程，带你解锁真正顺手的高效开发姿势！视频用15分钟带你过一遍日常开发中最实用的命令与快捷键：用@精准引用文件，用!直接执行终端命令，用#让AI记住你的偏好。更有Shift+Tab切换规划模式保障代码安全，以及/diff、/rewind、/compact等高阶命令帮你轻松管理代码改动与上下文。无论你是前端还是后端开发者，掌握这些技巧都能让你的AI编程效率大幅提升。快来跟着视频实操，进一步释放Claude Code的强大潜力吧！相关官方文档链接已放在下方描述中。",
-  "tags": "Claude Code, AI编程, 程序员效率工具, 终端命令教程, 代码自动化, 开发者工具",
+  "description": "你还在把Claude Code当成普通的聊天工具吗？本期视频为你带来一份极简的Claude Code高阶入门指南！我们将花15分钟时间，带你系统学习日常开发中最实用的命令与快捷键。从基础的/help、/status，到精准控制上下文的@、!、#符号；从保障代码安全的Plan Mode（规划模式），到高效管理代码变更的/diff与/rewind；再到优化上下文的/compact和自动化执行的/go命令。无论你是刚接触Claude Code的新手，还是想进一步提升AI编程效率的开发者，这期保姆级教程都不容错过！快来解锁Claude Code的真正实力吧！",
+  "tags": "Claude Code, AI编程, 开发者工具, 效率提升, 命令行教程, 编程快捷键",
   "clip_suggestions": [
     {
+      "start": "00:01:08",
+      "end": "00:03:11",
+      "reason": "详细演示了如何查找可用命令及查看当前模型状态，是新手必备的基础操作，适合作为入门切片。"
+    },
+    {
       "start": "00:03:12",
-      "end": "00:06:20",
-      "reason": "集中讲解了三个最常用的快捷符号（@引用文件、!执行命令、#快速记忆），实操性极强，非常适合作为干货切片传播"
+      "end": "00:06:35",
+      "reason": "集中讲解了引用文件(@)、执行Bash命令(!)和快速记忆(#)三个高频符号，干货满满，非常适合作为提效技巧单独传播。"
     },
     {
       "start": "00:06:36",
       "end": "00:08:16",
-      "reason": "讲解了如何用Shift+Tab切换权限，并重点演示了新手必备的Plan Mode（规划模式），是保障代码安全的核心技巧"
+      "reason": "强调了使用规划模式(Plan Mode)的重要性，教导用户如何安全地让AI修改代码，是建立AI编程安全感的核心片段。"
     },
     {
       "start": "00:08:17",
-      "end": "00:10:44",
-      "reason": "演示了开发者最关心的代码改动查看(/diff)和错误回退(/rewind)功能，解决了AI改错代码的痛点，适合单独作为避坑指南分享"
+      "end": "00:10:42",
+      "reason": "演示了如何在提交前查看代码差异(diff)以及如何回退错误修改(rewind)，解决了开发者日常最关心的代码容错问题。"
     },
     {
-      "start": "00:11:18",
+      "start": "00:10:43",
       "end": "00:12:50",
-      "reason": "针对长对话容易爆上下文的问题，提供了压缩(/compact)和查看(/context)上下文的完美解决方案，是高阶用户的刚需"
+      "reason": "讲解了如何清理、压缩和查看上下文占用，帮助用户解决长对话中Token爆掉的痛点，实用性极强。"
     },
     {
-      "start": "00:13:48",
+      "start": "00:12:51",
       "end": "00:14:24",
-      "reason": "展示了Claude Code强大的目标驱动自动化能力(/go)，一句话交代任务让AI自己干活，极具视觉冲击力和吸引力"
+      "reason": "介绍了如何恢复历史对话以及设定条件让AI自动工作(go命令)，展示了Claude Code强大的自动化任务处理能力，适合作为进阶展示。"
     }
   ],
   "detected_lang": "en",
   "translate_lang": "zh",
   "tts_url": null,
   "error": null,
-  "created_at": "2026-06-02 04:35:09",
-  "updated_at": "2026-06-02 04:38:01",
+  "created_at": "2026-06-02 04:45:29",
+  "updated_at": "2026-06-02 04:47:45",
   "chunks": [
     {
       "chunk_index": 0,
@@ -61,8 +66,8 @@
       "r2_key": "audio/qCWxfXidnEc_chunk_000.mp4",
       "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/qCWxfXidnEc_chunk_000.mp4",
       "status": "done",
-      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/0",
-      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/0?translated=1"
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/0",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/0?translated=1"
     },
     {
       "chunk_index": 1,
@@ -70,8 +75,8 @@
       "r2_key": "audio/qCWxfXidnEc_chunk_001.mp4",
       "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/qCWxfXidnEc_chunk_001.mp4",
       "status": "done",
-      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/1",
-      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/1?translated=1"
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/1",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/1?translated=1"
     },
     {
       "chunk_index": 2,
@@ -79,20 +84,20 @@
       "r2_key": "audio/qCWxfXidnEc_chunk_002.mp4",
       "url": "https://youtube-audio.hb67egcim4.workers.dev/file/audio/qCWxfXidnEc_chunk_002.mp4",
       "status": "done",
-      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/2",
-      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/chunk/2?translated=1"
+      "transcript_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/2",
+      "translated_url": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/chunk/2?translated=1"
     }
   ],
   "files": {
-    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript",
-    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=txt",
-    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=srt",
-    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=vtt",
-    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=csv",
-    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=md",
-    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?translated=1",
-    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=srt&translated=1",
-    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=vtt&translated=1",
-    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/c1dc8958-1f4a-45d3-8d4b-b5db3ba0f890/transcript?format=txt&translated=1"
+    "transcript_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript",
+    "transcript_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=txt",
+    "transcript_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=srt",
+    "transcript_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=vtt",
+    "transcript_csv": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=csv",
+    "analysis_md": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=md",
+    "translated_json": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?translated=1",
+    "translated_srt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=srt&translated=1",
+    "translated_vtt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=vtt&translated=1",
+    "translated_txt": "https://youtube-research-workflow.hb67egcim4.workers.dev/job/57e17f59-df8c-4dc9-85ff-0d1e9d037717/transcript?format=txt&translated=1"
   }
 }
