@@ -1,5 +1,22 @@
 {
   "source_url": "https://www.youtube.com/watch?v=qCWxfXidnEc",
   "source_type": "youtube",
-  "pipeline_id": "qCWxfXidnEc-20260602T043259"
+  "pipeline_id": "qCWxfXidnEc-20260602T043259",
+  "stage_b_fetch": {
+    "run_id": "direct-1780374780",
+    "video_id": "qCWxfXidnEc",
+    "title": "Claude Code CLI 小白极简入门 - 装了之后必会的命令与快捷键",
+    "author": "01Coder",
+    "published_at": "2026-06-02T00:22:52Z",
+    "youtube_url": "https://www.youtube.com/watch?v=qCWxfXidnEc",
+    "thumbnail": "https://i.ytimg.com/vi/qCWxfXidnEc/hqdefault.jpg",
+    "meta_file": "raw/youtube-metadata/qCWxfXidnEc.json"
+  },
+  "stage_b": {
+    "source_metadata": {
+      "title": "Claude Code CLI 小白极简入门 - 装了之后必会的命令与快捷键",
+      "youtube_url": "https://www.youtube.com/watch?v=qCWxfXidnEc",
+      "author": "01Coder"
+    }
+  }
 }
